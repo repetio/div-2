@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sala de Prensa</title>
+	<link rel="stylesheet" href="w3.css">
+	<style type="text/css">
+		* {
+			font-family: "Helvetica";
+		}
+		body {
+			margin: 0;
+			/*background: rgb(248, 253, 248);*/
+			box-sizing: content-box;
+		}
+		.container {
+			border: 2px solid #505348;
+			margin: 0;
+			width: 384px;
+			height: 192px;
+			background: linear-gradient(135deg, #5F845F, #CCC692, #FCF7CB, #5F845F);
+		}
+		.page-header {
+			width: 1920px;
+			height: 140px;
+			background: #505348;
+			margin-bottom: 10px;
+		}
+		.header-title {	
+			font-size: 60px;
+			color: white;
+			left: 80px;
+		}
+		.header-logo {
+			top:80px;
+			right: 50px;
+		}
+		.winner-card {
+			position: relative;
+			display: inline-block;
+			width: 114px;
+			height: 75px;
+			border: 1.5px #547152 solid;
+			border-radius: 5px;
+			background-color: #D6D6D6;
+			margin: 8px 2px;
+			box-shadow: 2px 2px 6px 0 rgba(120,120,120,0.6), 1px 1px 2px 0 rgba(120,120,120,0.5);
+		}
+		.estado {
+			font-size: 7px;
+			font-weight: bold;
+			margin: 2px;
+		}
+		.info-ribbon {
+			width: 108px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 4px;	
+		}
+		.line1 {
+			margin-top: 2px;
+			border-bottom: 1px #547152 solid;
+			text-align: right;
+			font-size: 6px;
+		}
+		.line2 {
+			display: inline-block;
+			width: 45%;
+			font-size: 5px;
+		}
+		.left-item {
+			border-right: 1px #547152 solid;
+		}
+	</style>
+	<script src="jquery-3.2.1-min.js" type="text/javascript"></script>
+</head>
+<body>
+	<!--<div class="page-header w3-display-container">
+		<div class="header-title w3-display-left">GANADORES - ELECCIONES REGIONALES 2017</div>
+		<div class="header-logo w3-display-right">
+			<img src="cne_vector.png" width="200px">
+		</div>
+	</div> -->
+	<div class="container" style="text-align: center;">
+		<div class="winner-card">
+			<p class="estado" id="estado1">EDO.</p>
+			<img src="logos662x300/none.png" id="img1" width="88" height="36">	
+			<div class="info-ribbon line1" id="votos1">Votos válidos: 0</div>
+			<div class="info-ribbon">
+				<span class="line2 left-item">Trasmisión: 0.00%</span>
+				<span class="line2" id="part1">Participación: 0.00%</span>
+			</div>
+		</div>
+		<div class="winner-card">
+			<p class="estado" id="estado2">EDO.</p>			
+			<img src="logos662x300/none.png" id="img2" width="88" height="36">	
+			<div class="info-ribbon line1" id="votos2">Votos válidos: 0</div>
+			<div class="info-ribbon">
+				<span class="line2 left-item" id="tx2">Trasmisión: 0.00%</span>
+				<span class="line2" id="part2">Participación: 0.00%</span>
+			</div>
+		</div>
+		<div class="winner-card">
+			<p class="estado" id="estado3">EDO.</p>			
+			<img src="logos662x300/none.png" id="img3" width="88" height="36">	
+			<div class="info-ribbon line1" id="votos3">Votos válidos: 0</div>
+			<div class="info-ribbon">
+				<span class="line2 left-item" id="tx3">Trasmisión: 0.00%</span>
+				<span class="line2" id="part3">Participación: 0.00%</span>
+			</div>
+		</div>
+		<div class="winner-card">
+			<p class="estado" id="estado4">EDO.</p>			
+			<img src="logos662x300/none.png" id="img4" width="88" height="36">	
+			<div class="info-ribbon line1" id="votos4">Votos válidos: 0</div>
+			<div class="info-ribbon">
+				<span class="line2 left-item" id="tx4">Trasmisión: 0.00%</span>
+				<span class="line2" id="part4">Participación: 0.00%</span>
+			</div>
+		</div>
+		<div class="winner-card">
+			<p class="estado" id="estado5">EDO.</p>			
+			<img src="logos662x300/none.png" id="img5" width="88" height="36">	
+			<div class="info-ribbon line1" id="votos5">Votos válidos: 0</div>
+			<div class="info-ribbon">
+				<span class="line2 left-item" id="tx5">Trasmisión: 0.00%</span>
+				<span class="line2" id="part5">Participación: 0.00%</span>
+			</div>
+		</div>
+		<div class="winner-card">
+			<p class="estado" id="estado6">EDO.</p>			
+			<img src="logos662x300/none.png" id="img6" width="88" height="36">	
+			<div class="info-ribbon line1" id="votos6">Votos válidos: 0</div>
+			<div class="info-ribbon">
+				<span class="line2 left-item" id="tx6">Trasmisión: 0.00%</span>
+				<span class="line2" id="part6">Participación: 0.00%</span>
+			</div>
+		</div>
+	</div>
+
+<script src="load_data.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
