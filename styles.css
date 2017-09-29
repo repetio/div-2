@@ -34,7 +34,7 @@
 
 		.header-title {
 			position: absolute;
-			font-size: 28px;
+			font-size: 30px;
 			color: white;
 			left: 20px;
 		}
@@ -55,7 +55,7 @@
 			width: 300px;
 			height: 400px;
 			/*border: 1.5px #547152 solid;*/
-			border-radius: 5px;
+			border-radius: 8px;
 			/*background-color: #A8A89E;
 			background-color: #F4E5C6;*/
 			margin: 40px 35px;
@@ -63,7 +63,7 @@
 		}
 		.estado {
 			color: #3A4A40;
-			font-size: 26px;
+			font-size: 28px;
 			font-weight: bold;
 			margin: 4px 2px 2px 2px;
 		}
@@ -95,14 +95,14 @@
 			left: 10px;
 		}
 		.cand-name {
-			margin: 40px 0px 30px 0px;
-			font-size: 20px;
+			margin: 30px 0px 20px 0px;
+			font-size: 22px;
 			font-weight: bold;
 		}
 
 		/* DATA BOX */
 		.data-container {
-			font-size: 18px;
+			font-size: 20px;
 			width: 260px;
 			margin-top: 12px;
 			margin-right: auto;
