@@ -65,7 +65,7 @@
 			color: #3A4A40;
 			font-size: 26px;
 			font-weight: bold;
-			margin: 2px;
+			margin: 4px 2px 2px 2px;
 		}
 
 		/* IMAGEN Y LOGO CANDIDATO */
@@ -95,14 +95,14 @@
 			left: 10px;
 		}
 		.cand-name {
-			margin: 40px 0px 35px 0px;
+			margin: 40px 0px 30px 0px;
 			font-size: 20px;
 			font-weight: bold;
 		}
 
 		/* DATA BOX */
 		.data-container {
-			font-size: 17px;
+			font-size: 18px;
 			width: 260px;
 			margin-top: 12px;
 			margin-right: auto;
