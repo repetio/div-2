@@ -49,17 +49,23 @@
 
 	}
 
-	setInterval(shiftScreens, 10000);
+	setInterval(shiftScreens, 15000);
 
 	var currentScreen = 1;
 	function shiftScreens() {
 		if(currentScreen == 1) {
-			$("#scr2").show();
-			$("#scr1").hide();
+			$("#scr2").removeClass("hide-info");
+			$("#scr1").removeClass("show-info");
+			$("#scr1").css("z-index", "100")
+			$("#scr2").addClass("show-info");
+			$("#scr1").addClass("hide-info");
 			currentScreen = 2;
 		} else {
-			$("#scr1").show();
-			$("#scr2").hide();						
+			$("#scr2").removeClass("show-info");
+			$("#scr1").removeClass("hide-info");
+			$("#scr1").css("z-index", "0")
+			$("#scr2").addClass("hide-info");
+			$("#scr1").addClass("show-info");
 			currentScreen = 1;
 		}
 	}
