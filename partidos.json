@@ -1,12 +1,12 @@
 {
-	"1":{"color":"#FFFFFF","name":"AD"},
-	"2":{"color":"#99C655","name":"COPEI"},
-	"5":{"color":"#E5843A","name":"MAS"},
-	"9":{"color":"#D14538","name":"PCV"},
-	"236":{"color":"#EA943D","name":"VPA"},
-	"269":{"color":"#DA3731","name":"PSUV"},
-	"458":{"color":"#F2BD71","name":"PJ"},
-	"460":{"color":"#72C1D6","name":"UNT"},
-	"814":{"color":"#0A2495","name":"AP"},
-	"931":{"color":"#DC433A","name":"TUPAMARO"}
+	"1":{"color":"#FFFFFF","name":"AD", "penColor":"#000"},
+	"2":{"color":"#99C655","name":"COPEI", "penColor":"#000"},
+	"5":{"color":"#E5843A","name":"MAS", "penColor":"#000"},
+	"9":{"color":"#D14538","name":"PCV", "penColor":"#fff"},
+	"236":{"color":"#EA943D","name":"VPA", "penColor":"#000"},
+	"269":{"color":"#DA3731","name":"PSUV", "penColor":"#fff"},
+	"458":{"color":"#F2BD71","name":"PJ", "penColor":"#000"},
+	"460":{"color":"#72C1D6","name":"UNT", "penColor":"#000"},
+	"814":{"color":"#0A2495","name":"AP", "penColor":"#fff"},
+	"931":{"color":"#DC433A","name":"TUPAMARO", "penColor":"#fff"}
 }

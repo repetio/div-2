@@ -8,8 +8,10 @@
 		var d2 = $.getJSON("screen-conf.json");
 
 		$.when(d1, d2).done(function(d, s) {
-			var data = d[0].split("\n");
+			d = d[0].replace(/\r/g, '');
+			var data = d.split("\n");
 			var conf = s[0][screenNum];
+			console.log(data);
 
 			$.each(conf, function(index, card) {
 				var i = index + 1;
@@ -23,7 +25,7 @@
 					candDataArr = candData.split("|");
 						console.log("i2", i, candDataArr);
 
-					if(candDataArr[1] != "0") {
+					if(candDataArr[1] !== "0") {
 						$("#foto"+i).attr("src", "candidatos/"+candDataArr[1]+".jpg");
 						$("#partido"+i).attr("src", "logos/"+candDataArr[3]+".jpg");
 						$("#nombre"+i).text(candDataArr[2]);
@@ -31,7 +33,7 @@
 						$("#part"+i).text(candDataArr[5]);
 						$("#tx"+i).text(candDataArr[6]);
 					} else {					
-						$("#img"+i).attr("src", "logos662x300/no_adj.png");
+						$("#partido"+i).attr("src", "logos/0.png");
 					}
 				} else {
 					edo.parent().hide();

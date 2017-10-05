@@ -12,6 +12,56 @@ body {
 	box-sizing: border-box;
 }
 
+body #wc-container {
+	position: relative;
+}
+
+body #wc-container #winner-count {
+	font-family: 'Trebuchet';	
+	position: absolute;
+	width: 400px;
+	height: 750px;
+	bottom: 100px;
+	left: 780px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+body #wc-container #winner-count .winner-item{
+	font-size: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: (100% - 10px);
+	height: 60px;
+	margin: 5px;
+}
+
+body #wc-container #winner-count .winner-item .count-group {
+	font-size: 30px;
+	font-weight: bold;
+	background-color: white;
+	height: 60px;
+	width: 60px;
+	border-radius: 50% 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
+	box-shadow: 0px 0px 20px 2px rgba(180,180,180,1);
+}
+
+body #wc-container #participation {
+	font-family: 'Trebuchet';	
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 100px;
+	right: 150px;
+}
+
 table {
 	width: 90%;
 	margin-left: auto;
