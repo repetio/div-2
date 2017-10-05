@@ -1,5 +1,10 @@
+@font-face {
+	font-family: "Trebuchet";
+	src: url("Trebuchet MS.ttf");
+}
+
 * {
-	font-family: "Helvetica";
+	font-family: "Trebuchet";
 }
 body {
 	margin: 0;
@@ -17,12 +22,12 @@ td.col2 {
 	font-weight: bold;
 }
 .container {
+	padding-top: 80px;
 	padding-bottom: 20px;
 	position: absolute;
-	border: 2px solid #505348;
 	margin: 0;
 	width: 800px;
-	height: 1480px;
+	height: 1600px;
 	background: #F6F6F6;
 	/*background: linear-gradient(135deg, #5F845F, #CCC692, #FCF7CB, #5F845F);
 	background: #F4E5C6;*//
