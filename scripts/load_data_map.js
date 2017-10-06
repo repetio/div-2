@@ -2,7 +2,7 @@
 
 	var loadData = function () {
 		var d1 = $.ajax({url:"data.txt"});
-		var d2 = $.getJSON("fake/partidos.json");
+		var d2 = $.getJSON("config/partidos.json");
 		var winners = null;
 
 		$.when(d1, d2).done(function(d, p) {

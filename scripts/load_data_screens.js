@@ -5,7 +5,7 @@
 		console.log("sn", screenNum);
 
 		var d1 = $.ajax({url:"data.txt"});
-		var d2 = $.getJSON("fake/screen-conf.json");
+		var d2 = $.getJSON("config/screen-conf.json");
 
 		$.when(d1, d2).done(function(d, s) {
 			d = d[0].replace(/\r/g, '');
