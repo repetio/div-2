@@ -2,7 +2,7 @@
 
 	var loadData = function () {
 		var d1 = $.ajax({url:"data.txt"});
-		var d2 = $.getJSON("partidos.json");
+		var d2 = $.getJSON("fake/partidos.json");
 		var winners = null;
 
 		$.when(d1, d2).done(function(d, p) {
@@ -44,7 +44,6 @@
 			$("#winner-count").empty();
 			$.each(winners, function(index, winner){
 				if(!winner) return;
-				console.log(winner);
 				var winnersContent = $("#winner-count");
 				var insert = $('<div class="winner-item"> <div class="count-group" style="background-color:' + winner.color + ';color:' + winner.penColor + '">' + winner.total + '</div>' + winner.name + '</div>');
 				winnersContent.append(insert);

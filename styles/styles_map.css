@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "Trebuchet";
-	src: url("Trebuchet MS.ttf");
+	src: url("styles/Trebuchet MS.ttf");
 }
 
 * {
@@ -14,6 +14,7 @@ body {
 
 body #wc-container {
 	position: relative;
+	width: 2400px;
 }
 
 body #wc-container #winner-count {
