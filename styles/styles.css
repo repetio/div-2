@@ -22,16 +22,16 @@ td.col2 {
 	font-weight: bold;
 }
 img.pic-cand {
-	width: 50px;
-	height: 50px;
+	width: 70px;
+	height: 70px;
 }
 .container {
 	padding-top: 5px;
 	padding-bottom: 20px;
 	position: absolute;
 	margin: 0;
-	width: 400px;
-	height: 670px;
+	width: 650px;
+	height: 1035px;
 	background: #F6F6F6;
 	/*background: linear-gradient(135deg, #5F845F, #CCC692, #FCF7CB, #5F845F);
 	background: #F4E5C6;*//
@@ -62,15 +62,15 @@ img.pic-cand {
 .winner-card {
 	position: relative;
 	display: inline-block;
-	width: 160px;
-	height: 200px;
+	width: 40%;
+	height: 30%;
 	border-radius: 8px;
-	margin: 10px 12px;
+	margin: 2.5% 2.5%;
 	box-shadow: 3px 3px 15px 0 rgba(120,120,120,0.6), 1px 1px 2px 0 rgba(120,120,120,0.5);
 }
 .estado {
 	color: #3A4A40;
-	font-size: 14px;
+	font-size: 1.5em;
 	font-weight: bold;
 	margin: 4px 2px 2px 2px;
 }
@@ -79,8 +79,8 @@ img.pic-cand {
 .logo-container {
 	/*border: 1px solid black;*/
 	position: relative;
-	width: 220px;
-	height: 75px;
+	width: 90%;
+	height: 42.5%;
 	margin-top: 5px;
 	margin-right: auto;
 	margin-left: auto;
@@ -93,24 +93,26 @@ img.pic-cand {
 	z-index: 1;
 	position: absolute;
 	top: 0px;
-	left: 55px;
+	left: 33.5%;
 }
 .logo {
 	z-index: 0;
 	position: absolute;
 	bottom: 0px;
-	left: 20px;
+	left: 5%;
+	width: 90%
+
 }
 .cand-name {
 	margin: 10px 0px 5px 0px;
-	font-size: 11px;
+	font-size: 1.25em;
 	font-weight: bold;
 }
 
 /* DATA BOX */
 .data-container {
-	font-size: 9px;
-	width: 140px;
+	font-size: 1em;
+	width: 90%;
 	margin-top: 0px;
 	margin-right: auto;
 	margin-left: auto;

@@ -7,8 +7,11 @@
 	<script src="scripts/jquery-3.2.1-min.js" type="text/javascript"></script>
 
 	<style type="text/css" media="screen">
+		iframe {
+			overflow: hidden;
+		}
 		.big-screen {
-			width: 1790px;
+			width: 2457px;
 			display: flex;
 			text-align: left;
 			border: 0px;
@@ -17,14 +20,14 @@
 			border: 0px;
 		}
 		.sides {
-			width: 400px;
-			height: 670px;
+			width: 650px;
+			height: 1035px;
 			border: none;
 
 		}
 		.middle {
-			width: 990px;
-			height: 670px;
+			width: 1157px;
+			height: 1035px;
 			border: none;
 
 		}
@@ -32,9 +35,9 @@
 </head>
 <body>
 	<div class="big-screen">	
-		<iframe class="sides" src="screen.html?s=1"></iframe>
-		<iframe class="middle" src="map.html"></iframe>
-		<iframe class="sides" src="screen.html?s=2"></iframe>
+		<iframe class="sides" src="screen.html?s=1" scrolling="no"></iframe>
+		<iframe class="middle" src="map.html" scrolling="no"></iframe>
+		<iframe class="sides" src="screen.html?s=2" scrolling="no"></iframe>
 	</div>
 </body>
 </html>

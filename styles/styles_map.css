@@ -14,38 +14,38 @@ body {
 
 body #wc-container {
 	position: relative;
-	width: 990px;
+	width: 1157px;
 }
 
 body #wc-container #winner-count {
 	font-family: 'Trebuchet';	
 	position: absolute;
-	width: 200px;
-	height: 350px;
+	width: 250px;
+	height: 450px;
 	bottom: 10px;
-	left: 275px;
+	left: 25%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
 body #wc-container #winner-count .winner-item{
-	font-size: 16px;
+	font-size: 1.3em;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
 	width: (100% - 10px);
-	height: 20px;
+	height: 30px;
 	margin: 4px;
 }
 
 body #wc-container #winner-count .winner-item .count-group {
-	font-size: 14px;
+	font-size: 1em;
 	font-weight: bold;
 	background-color: white;
-	height: 20px;
-	width: 20px;
+	height: 30px;
+	width: 30px;
 	border-radius: 50% 50%;
 	display: flex;
 	justify-content: center;
@@ -56,11 +56,11 @@ body #wc-container #winner-count .winner-item .count-group {
 
 body #wc-container #participation {
 	font-family: Trebuchet;	
-	font-size: 16px;
+	font-size: 1.3em;
 	font-weight: bold;
 	position: absolute;
-	bottom: 50px;
-	right: 100px;
+	bottom: 5%;
+	right: 5%;
 }
 
 table {
@@ -97,8 +97,8 @@ svg {
 .container {
 	display: flex;
 	margin: 0;
-	width: 990px;
-	height: 670px;
+	width: 1157px;
+	height: 1035px;
 	background: #F6F6F6;
 	/*background: linear-gradient(135deg, #5F845F, #CCC692, #FCF7CB, #5F845F);
 	background: #F4E5C6;*//
@@ -107,8 +107,7 @@ svg {
 	display: flex;
 	flex-direction: column;
 	background: #F4E5C6;
-	width: 220px;
-	height: 670px;
+	width: 25%;
+	height: 100%;
 	align-items: center;
-	margin-left: 10px;
 }
