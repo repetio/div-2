@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "Trebuchet";
-	src: url("styles/Trebuchet MS.ttf");
+	src: url("/styles/Trebuchet MS.ttf");
 }
 
 * {
-	font-family: "Helvetica";
+	font-family: "Trebuchet";
 }
 body {
 	margin: 0;
@@ -14,53 +14,53 @@ body {
 
 body #wc-container {
 	position: relative;
-	width: 2400px;
+	width: 990px;
 }
 
 body #wc-container #winner-count {
 	font-family: 'Trebuchet';	
 	position: absolute;
-	width: 400px;
-	height: 750px;
-	bottom: 100px;
-	left: 780px;
+	width: 200px;
+	height: 350px;
+	bottom: 10px;
+	left: 275px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
 body #wc-container #winner-count .winner-item{
-	font-size: 30px;
+	font-size: 16px;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
 	width: (100% - 10px);
-	height: 60px;
-	margin: 5px;
+	height: 20px;
+	margin: 4px;
 }
 
 body #wc-container #winner-count .winner-item .count-group {
-	font-size: 30px;
+	font-size: 14px;
 	font-weight: bold;
 	background-color: white;
-	height: 60px;
-	width: 60px;
+	height: 20px;
+	width: 20px;
 	border-radius: 50% 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-right: 20px;
+	margin-right: 10px;
 	box-shadow: 0px 0px 20px 2px rgba(180,180,180,1);
 }
 
 body #wc-container #participation {
-	font-family: 'Trebuchet';	
-	font-size: 30px;
+	font-family: Trebuchet;	
+	font-size: 16px;
 	font-weight: bold;
 	position: absolute;
-	bottom: 100px;
-	right: 150px;
+	bottom: 50px;
+	right: 100px;
 }
 
 table {
@@ -80,8 +80,8 @@ svg {
 }
 .title {
 	font-family: "Trebuchet";
-	font-size: 80px;
-	margin-top: 50px;
+	font-size: 40px;
+	margin-top: 25px;
 	color: #524f34;
 }
 .header {
@@ -97,8 +97,8 @@ svg {
 .container {
 	display: flex;
 	margin: 0;
-	width: 2400px;
-	height: 1600px;
+	width: 990px;
+	height: 670px;
 	background: #F6F6F6;
 	/*background: linear-gradient(135deg, #5F845F, #CCC692, #FCF7CB, #5F845F);
 	background: #F4E5C6;*//
@@ -107,8 +107,8 @@ svg {
 	display: flex;
 	flex-direction: column;
 	background: #F4E5C6;
-	width: 596px;
-	height: 1600px;
+	width: 220px;
+	height: 670px;
 	align-items: center;
-	margin-left: 100px;
+	margin-left: 10px;
 }

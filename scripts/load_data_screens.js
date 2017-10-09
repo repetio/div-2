@@ -51,7 +51,7 @@
 
 	}
 
-	setInterval(shiftScreens, 15000);
+	setInterval(shiftScreens, 5000);
 
 	var currentScreen = 1;
 	function shiftScreens() {
