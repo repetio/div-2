@@ -3,12 +3,19 @@
 	var loadData = function () {
 		var d1 = $.ajax({url:"data.txt"});
 		var d2 = $.getJSON("config/partidos.json");
+		var d3 = $.ajax({url:"participation.txt"});
 		var winners = null;
 
-		$.when(d1, d2).done(function(d, p) {
+		$.when(d1, d2, d3).done(function(d, p, pp) {
 			d[0] = d[0].replace(/\r/g, '');
+			pp[0] = pp[0].replace(/\r/g, '');
+
 			var data = d[0].split("\n");
 			var parties = p[0];
+			var participation = pp[0].split("\n");
+			participation = participation[0].split("|");
+
+			$("#part-data").text(participation[2]);
 
 			winners = [];
 			$.each(data, function(index, eCandData) {
@@ -55,6 +62,7 @@
 	}	
 
 	loadData();
+	setInterval(loadData, 10000);
 
 })(window);
 
